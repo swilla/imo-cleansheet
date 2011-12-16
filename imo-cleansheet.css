@@ -1,0 +1,215 @@
+/**
+* Imo.im cleaner
+*
+* Cleans up the imo.im space by changing fonts and spacing
+* for better readability and a darker overall theme.
+*
+* @author cmfolio
+* @url http://web.cmfolio.com/projects/imo-cleansheet/
+* @version 1.0
+*
+**/
+
+/*@ background */
+
+/* image */
+
+div#imo {
+    background: #333 url(http://osxdaily.com/wp-content/uploads/2011/10/NSTexturedFullScreenBackgroundColor.png) ;
+}
+
+/**
+* additional background image urls
+* 
+http://osxdaily.com/wp-content/uploads/2011/10/NSTexturedFullScreenBackgroundColor.png
+http://osxdaily.com/wp-content/uploads/2011/10/NSLinenBackgroundPattern.png
+http://globalmoxie.com/bm~doc/wood-wallpaper.png
+http://svohosting.com/wp-content/plugins/WPRobot3/images/dd3bc_4937353109_70706eb29a.jpg
+*
+**/
+
+/*@ buddy list */
+
+.blist-container {
+    border: 0 ;
+}
+
+/* buddly list color and opacity */
+
+#blist {
+    background: #fff;
+    opacity: .60 ;
+}
+
+#blist:hover {
+    opacity: .85 ;
+}
+
+#blist .buddyitem:hover {
+    background: #d6e6fe ;
+}
+
+#blist .status {
+    font-style: italic;
+    font-size: 11px ;
+}
+
+/* buddy list group headers */
+
+#blist .buddygroup .bar {
+    background: #222 -webkit-gradient(linear,left top,left bottom,from(#666),to(#444));
+}
+
+#blist .buddygroup .title {
+    font-size: 11px ;
+}
+
+/* hide buddy list group arrows */
+
+#blist .buddygroup .button {
+    display: none ;
+}
+
+#blist .buddygrouplist .accountdisplay {
+    padding-left: 3px;
+}
+
+/*@ chat windows */
+
+.convlog {
+    background: #f8fafe ;
+}
+
+#window_container .floatingwindowholder, #window_container .floatingwindow, #window_container .titlebar {
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+}
+
+/* remove time */
+
+/*
+.convlog-msgs .ts {
+    display: none ;
+}*/
+
+/* remove seconds from time */
+
+.convlog-msgs .ts {
+    padding: 0;
+    vertical-align: bottom ;
+    width: 27px;
+    overflow: hidden;
+    display: inline-block;
+}
+
+/* each message */
+
+.convlog-msgs > div {
+    padding: 1px 5px ;
+}
+
+.convlog-msgs .convlogitem_bk0_old {
+    color: #aaa ;
+    background: #f8fafe ;
+}
+
+.convlog-msgs > div a {
+    text-decoration: underline ;
+}
+
+.convlog-msgs > div img {
+    margin-bottom: -4px;
+    position: relative;
+    top: -3px ;
+}
+
+/* names */
+
+.convlog-msgs .na {
+    color: #184c66 ;
+}
+
+/* add seperator after name */
+
+.convlog-msgs .na:after {
+    content: ":" ;
+}
+
+.convlog-msgs .na.convlogitem_notify:after {
+    content: none ;
+}
+
+/* me */
+
+.convlog .convlogitem_me {
+    background: none ;
+}
+
+.convlogitem_me, .convlogitem_me .ms, .convlogitem_me .na {
+    color: #888 ;
+}
+
+/* them */
+
+.convlogitem_bk0_old, .convlogitem_bk0_old .ms {
+    color: #444 ;
+}
+
+/* title bar */
+
+.titlebar .title {
+    font-weight: bold ;
+}
+
+.convbuttons .new_button {
+    background-color: #E0E0E0 ;
+}
+
+/* notices */
+
+.sys_offline, .sys_online {
+    font-weight: bold ;
+}
+
+.attention-bubble {
+    top: -1px;
+    left: -1px ;
+}
+
+.convtyping {
+    color: #666;
+    font-style: italic ;
+}
+
+/*@ fonts & colors (im window) */
+
+/**
+* bright light blue: #78afa4 
+* light blue: #779A9F 
+* med blue: #184c66 
+* light grey: #bfbfbf 
+* med grey: #7f7f7f 
+**/
+
+/* footer fix */
+
+#footer {
+    background: #222 -webkit-gradient(linear,left top,left bottom,from(#111),to(#000));
+    border-top: 0 ;
+}
+
+#footer-right {
+    float: left ;
+}
+
+#footer a {
+    color: #fff ;
+}
+
+/* hide borders - for dark backgrounds */
+
+#header, #body {
+    border-bottom: 0px ;
+}
+
