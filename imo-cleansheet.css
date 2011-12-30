@@ -6,7 +6,7 @@
 *
 * @author cmfolio
 * @url http://web.cmfolio.com/projects/imo-cleansheet/
-* @version 1.0
+* @version 1.1
 *
 **/
 
@@ -56,19 +56,11 @@ http://svohosting.com/wp-content/plugins/WPRobot3/images/dd3bc_4937353109_70706e
 
 /* buddy list group headers */
 
-#blist .buddygroup .bar {
-    background: #222 -webkit-gradient(linear,left top,left bottom,from(#666),to(#444));
-}
-
 #blist .buddygroup .title {
     font-size: 11px ;
 }
 
 /* hide buddy list group arrows */
-
-#blist .buddygroup .button {
-    display: none ;
-}
 
 #blist .buddygrouplist .accountdisplay {
     padding-left: 3px;
@@ -110,7 +102,6 @@ http://svohosting.com/wp-content/plugins/WPRobot3/images/dd3bc_4937353109_70706e
 }
 
 .convlog-msgs .convlogitem_bk0_old {
-    color: #aaa ;
     background: #f8fafe ;
 }
 
@@ -122,12 +113,6 @@ http://svohosting.com/wp-content/plugins/WPRobot3/images/dd3bc_4937353109_70706e
     margin-bottom: -4px;
     position: relative;
     top: -3px ;
-}
-
-/* names */
-
-.convlog-msgs .na {
-    color: #184c66 ;
 }
 
 /* add seperator after name */
@@ -148,12 +133,6 @@ http://svohosting.com/wp-content/plugins/WPRobot3/images/dd3bc_4937353109_70706e
 
 .convlogitem_me, .convlogitem_me .ms, .convlogitem_me .na {
     color: #888 ;
-}
-
-/* them */
-
-.convlogitem_bk0_old, .convlogitem_bk0_old .ms {
-    color: #444 ;
 }
 
 /* title bar */
